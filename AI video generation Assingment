@@ -1,0 +1,122 @@
+{
+  "video_config": {
+    "duration_seconds": 60,
+    "aspect_ratio": "9:16",
+    "style": "cinematic, realistic, grounded",
+    "language": "Tamil",
+    "music": {
+      "type": "soft cinematic",
+      "volume": "low",
+      "build": "gradual"
+    }
+  },
+  "global_constraints": {
+    "character": {
+      "count": 1,
+      "description": "young Indian male",
+      "consistency": true,
+      "must_not": [
+        "walk backwards",
+        "teleport",
+        "change appearance",
+        "change age",
+        "change clothes suddenly",
+        "duplicate"
+      ]
+    },
+    "visual_quality": {
+      "avoid": [
+        "distorted faces",
+        "extra limbs",
+        "flickering hands",
+        "warped eyes",
+        "camera shake",
+        "glitches",
+        "cartoon style",
+        "anime style",
+        "cyberpunk visuals"
+      ]
+    }
+  },
+  "scenes": [
+    {
+      "scene_id": 1,
+      "description": "Night, small dimly lit room. The man sits alone looking at his phone with job rejection emails.",
+      "constraints": [
+        "no exaggerated emotions",
+        "no dramatic lighting"
+      ],
+      "voiceover_tamil": "College mudichitu… zero job offers. Campus placement illa. Backup plan-um illa."
+    },
+    {
+      "scene_id": 2,
+      "description": "Early morning Bengaluru street. The man walks forward with a backpack. City life moves naturally.",
+      "constraints": [
+        "no walking backwards",
+        "no frozen traffic",
+        "no empty city"
+      ],
+      "voiceover_tamil": "₹5,000 mattum thaan kaiyila. Bengaluru-ku vandhen. Oru goal mattum — oru opportunity."
+    },
+    {
+      "scene_id": 3,
+      "description": "Small PG room. Laptop open. Rejection emails scrolling. Clock ticking softly.",
+      "constraints": [
+        "no floating objects",
+        "no exaggerated facial expressions"
+      ],
+      "voiceover_tamil": "Rendu maasam search panninen. Reject pannina mail thaan adhigam."
+    },
+    {
+      "scene_id": 4,
+      "description": "Simple office workspace. The man works as a Technical Support Engineer Intern with a headset.",
+      "constraints": [
+        "no luxury office",
+        "no futuristic or sci-fi UI"
+      ],
+      "voiceover_tamil": "Kadaisila oru role kidaichadhu. Technical Support Engineer Intern. ₹7,000 stipend."
+    },
+    {
+      "scene_id": 5,
+      "description": "The man pauses at his desk, thinking and observing systems on his laptop.",
+      "constraints": [
+        "no crying",
+        "no dramatic lighting changes"
+      ],
+      "voiceover_tamil": "Idhu AI role illa. Dream job-um illa. Aana… AI mela interest irundhuchu."
+    },
+    {
+      "scene_id": 6,
+      "description": "The man builds simple AI automations and dashboards that solve real problems. Team notices his work.",
+      "constraints": [
+        "no neon visuals",
+        "no complex code flooding the screen"
+      ],
+      "voiceover_tamil": "Permission kaaga wait pannala. Company-kulla chinna chinna AI solutions build panninen. Problems solve panninen. Real value add panninen."
+    },
+    {
+      "scene_id": 7,
+      "description": "Team discussion near a whiteboard. The man participates confidently.",
+      "constraints": [
+        "no applause scenes",
+        "no dominance posturing"
+      ],
+      "voiceover_tamil": "Slow-aa… role maathuchu. AI work panninaen."
+    },
+    {
+      "scene_id": 8,
+      "description": "Clean professional indoor setting. Medium close-up of the man speaking calmly to camera.",
+      "constraints": [
+        "no flashy animations",
+        "no aggressive zoom",
+        "no motivational speaker poses"
+      ],
+      "voiceover_tamil": "Naan Thiru. SocialEagle.ai oda co-founder. Certificate career-a maathadhu. Execution thaan maathum."
+    }
+  ],
+  "end_frame": {
+    "hold_seconds": 3,
+    "visual": "The man remains still. Soft fade.",
+    "optional_text": "SocialEagle.ai"
+  }
+}
